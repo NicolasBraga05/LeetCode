@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES6", // Código JavaScript moderno
+		"module": "commonjs", // Suporte a módulos Node.js
+		"rootDir": "src", // Código-fonte de entrada
+		"outDir": "dist", // Arquivos compilados saem aqui
+		"strict": true, // Ativa todas as verificações rigorosas
+		"esModuleInterop": true, // Para permitir importar módulos CommonJS
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true, // Ignora checagem de tipos em arquivos de definição
+		"noEmitOnError": true, // Não gera JS se houver erro
+		"noImplicitAny": true, // Evita tipos "any" implícitos
+		"noEmit": false // (garantido) Permite geração de JS
+	},
+	"include": ["src"], // Inclui arquivos na pasta src
+	"exclude": ["node_modules", "dist"] // Evita recompilar essas pastas
+}
